@@ -1,0 +1,24 @@
+{
+	"name": "@sripberger/eslint-config-plain",
+	"version": "0.0.0",
+	"description": "Personal ESLint configuration for plain JS in Node",
+	"author": "Steve Ripberger",
+	"license": "MIT",
+	"repository": "github:sripberger/eslint-config-plain",
+	"files": [
+		"/index.js",
+		"/meta.js"
+	],
+	"scripts": {
+		"lint": "eslint .",
+		"lintfix": "npm run lint -- --fix",
+		"preversion": "npm run lint",
+		"prepublishOnly": "git push && git push --tags"
+	},
+	"devDependencies": {
+		"eslint": "^8.37.0"
+	},
+	"peerDependencies": {
+		"eslint": "^8.0.0"
+	}
+}
