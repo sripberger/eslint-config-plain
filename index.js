@@ -118,7 +118,7 @@ module.exports = {
 		"operator-linebreak": ["error", "after"],
 		"padded-blocks": ["error", "never"],
 		"prefer-arrow-callback": "error",
-		"prefer-const": "error",
+		"prefer-const": "warn",
 		"prefer-destructuring": "off",
 		"prefer-numeric-literals": "error",
 		"prefer-promise-reject-errors": "error",
