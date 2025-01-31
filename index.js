@@ -7,7 +7,7 @@ module.exports = {
 		"eslint:recommended",
 	],
 	parserOptions: {
-		ecmaVersion: "2020",
+		ecmaVersion: "latest",
 	},
 	rules: {
 		"accessor-pairs": "error",
