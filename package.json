@@ -10,6 +10,10 @@
 		"/index.js",
 		"/meta.js"
 	],
+	"exports": {
+		".": "./index.js",
+		"./meta": "./meta.js"
+	},
 	"scripts": {
 		"lint": "eslint .",
 		"lintfix": "npm run lint -- --fix",
